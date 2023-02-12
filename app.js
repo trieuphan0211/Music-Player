@@ -173,7 +173,7 @@ const app = {
     prevSong: function(){
         this.currentIndex--;
         if(this.currentIndex < 0){
-            this.currentSong = 0
+            this.currentIndex = 0
     }
         this.loadCurrentSong();
     },
