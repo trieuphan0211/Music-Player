@@ -166,7 +166,7 @@ const app = {
     nextSong: function(){
         this.currentIndex++;
         if(this.currentIndex >= this.songs.length){
-            this.currentSong = 0
+            this.currentIndex = 0
     }
         this.loadCurrentSong();
     },
