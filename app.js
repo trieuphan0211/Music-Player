@@ -147,6 +147,7 @@ const app = {
         // khi next song
         nextBtn.onclick = function(){
             app.nextSong()
+            audio.play()
         }
         // khi prev song
         prevBtn.onclick = function(){
